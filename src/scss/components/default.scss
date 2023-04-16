@@ -1,0 +1,31 @@
+body {
+  overflow-x: hidden;
+  position: relative;
+  color: $black;
+  @include font('Inter', 400);
+
+  &.active-body {
+    overflow: hidden;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 36px;
+}
+
+a,
+button {
+  color: $white2;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}

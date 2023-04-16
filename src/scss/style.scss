@@ -1,0 +1,18 @@
+@import 'components/vars';
+@import 'components/mixins';
+@import 'components/classes';
+@import 'components/normalize';
+
+// reset
+@import 'components/reset';
+@import 'components/default';
+
+// vendors
+@import 'vendor/swiper-bundle';
+@import 'vendor/aos';
+
+// blocks
+
+@import 'blocks/header';
+@import 'blocks/section_firste';
+@import 'blocks/section_two';

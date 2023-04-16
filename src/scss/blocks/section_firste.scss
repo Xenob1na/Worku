@@ -1,0 +1,51 @@
+.main__firste {
+    background-color: $purple2;
+    
+}
+
+.main__firste-container {
+    display: flex;
+}
+
+.info__text-one {
+    min-width: 735px;
+    font-family: 'Krona One';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    text-transform: capitalize;
+    color: $white;
+    margin: 0px;
+    margin-top: 173px;
+}
+
+.info__text-two {
+    margin: 0px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: $white;
+}
+
+.info__btn {
+    padding: 18px 37px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    background-color: $yellow3;
+    border-radius: 6px;
+    transition: 0.6s ease;
+}
+
+.info__btn:hover {
+    background-color: $white;
+}
+
+.main__firste-img {
+    min-width: 551px;
+    min-height: 838px;
+}
+
+

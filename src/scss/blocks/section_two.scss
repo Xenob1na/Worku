@@ -1,0 +1,95 @@
+.main-text {
+    margin: 0px;
+    margin-top: 140px;
+    margin-bottom: 80px;
+    font-family: 'Krona One';
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 70px;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.main__video {
+    margin-bottom: 70px;
+}
+
+.Feature__sections-one {
+    max-width: 386px;
+    max-height: 318px;
+    background: $gray4;
+    border-radius: 5px;
+}
+
+
+.Feature__title-text {
+    margin: 0;
+    font-family: 'Krona One';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.Feature__text-info {
+    margin: 0;
+    padding: 0px 36px  43px 36px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.icon-img {
+    padding: 32px 0px 0px 36px;
+}
+
+.Feature__title-text-p {
+    padding: 20px 0px 13px 36px;
+}
+
+.Feature__sections-two {
+    max-width: 386px;
+    max-height: 318px;
+    background: $gray4;
+    border-radius: 5px;
+}
+
+.Feature__sections-three {
+    max-width: 386px;
+    max-height: 318px;
+    background: $gray4;
+    border-radius: 5px;
+}
+
+.main__two-Feature-Sections {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.main__two-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.main__two-btn-feature {
+    padding: 18px 47px;
+    border-radius: 6px;
+    background-color: $yellow3;
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    transition: 0.6s ease;
+}
+
+.main__two-btn-feature:hover {
+    background-color: $yellow4;
+    color: $white;
+}
