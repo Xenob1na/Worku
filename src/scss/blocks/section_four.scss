@@ -1,0 +1,54 @@
+.main__four {
+    background-color: $purple2;
+    margin-bottom: 130px;
+}
+
+.main__four-container {
+    width: 50%; 
+    margin: 0 auto;
+}
+
+.content-Testimonial-text-h3 {
+    min-width: 1035px;
+    padding-top: 64px;
+    padding-bottom: 32px;
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.content-Testimonial-img-text {
+    display: flex;
+}
+
+.content-Testimonial-text  {
+    margin-top: 20px;
+}
+
+.content-Testimonial-img {
+    max-width: 84.92px;
+    max-height: 93px;
+    margin-right: 17px;
+    margin-bottom: 90px;
+}
+
+.content-Testimonial-text-h5  {
+    margin-bottom: 6px;
+    font-size: 22px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.content-Testimonial-text-p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: $purple3;
+}

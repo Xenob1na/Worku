@@ -1,0 +1,96 @@
+.main__three {
+    margin-bottom: 155px;
+}
+
+.main__three-conatiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__three-img {
+    margin-right: 33px;
+    max-width: 577px;
+    max-height: 628px;
+}
+
+.content-block-1 {
+    margin-bottom: 40px;
+
+    &__h3 {
+        max-width: 518px;
+        margin-bottom: 21px;
+        font-family: 'Krona One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 60px;
+        letter-spacing: -0.03em;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    &__p {
+        max-width: 561px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+    }
+}
+
+.content-block-2 {
+    display: flex;
+
+    &__img {
+        width: 70px;
+        height: 70px;
+        margin-right: 25px;
+    }
+
+    &__text {
+        margin-bottom: 30px;
+    }
+}
+
+.content-block-2-text__h4 {
+    margin-bottom: 8px;
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.content-block-2-text__p {
+    max-width: 450px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.content-block-3  {
+    display: flex;
+}
+
+.content-block-3-text__h4 {
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.content-block-3-text__p {
+    max-width: 450px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    }
