@@ -1,0 +1,29 @@
+.footer {
+    background: #000000;
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__email {
+        margin-top: 38px;
+        margin-bottom: 38px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+
+    &__cop {
+        margin-top: 38px;
+        margin-bottom: 38px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+}
+

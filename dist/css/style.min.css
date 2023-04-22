@@ -2750,3 +2750,175 @@ button.swiper-pagination-bullet {
   text-transform: uppercase;
   color: #8F85B3;
 }
+
+.main__five {
+  margin-bottom: 165px;
+}
+
+.signup {
+  display: flex;
+  justify-content: space-between;
+}
+.signup__block1 {
+  margin-right: 107px;
+}
+.signup__title {
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  color: #000000;
+  margin-top: 50px;
+  margin-bottom: 23px;
+}
+.signup__Paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 27px;
+}
+.signup__input-text {
+  display: block;
+  min-width: 488px;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 20px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 3px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.signup__input-email {
+  display: block;
+  min-width: 488px;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 25px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 3px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.signup__btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 18px 47px;
+  background: #E0FF00;
+  border-radius: 6px;
+  transition: 0.6s ease;
+}
+.signup__btn:hover {
+  background-color: #CAE700;
+  color: #fff;
+}
+
+.accordion {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: 26px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: url(../img/Polygon1.png);
+  min-width: 8px;
+  min-height: 8px;
+  color: #777;
+  float: right;
+  border: none;
+}
+
+.active:after {
+  content: url(../img/Polygon2.png);
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  margin-bottom: 26px;
+}
+
+.faq-title {
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 75px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.main__six {
+  margin-bottom: 135px;
+}
+
+.faq {
+  max-width: 793px;
+  margin: 0 auto;
+}
+
+.footer {
+  background: #000000;
+}
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__email {
+  margin-top: 38px;
+  margin-bottom: 38px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.footer__cop {
+  margin-top: 38px;
+  margin-bottom: 38px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}

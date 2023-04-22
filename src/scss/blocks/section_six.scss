@@ -1,0 +1,64 @@
+.accordion {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 26px;
+  }
+
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+
+  .accordion:after {
+    content: url(../img/Polygon1.png);
+    min-width: 8px;
+    min-height: 8px;
+    color: #777;
+    float: right;
+    border: none;
+  }
+  
+  .active:after {
+    content: url(../img/Polygon2.png);
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    margin-bottom: 26px;
+  }
+
+  .faq-title {
+  font-family: 'Krona One';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 75px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 56px;
+  }
+
+  .main__six {
+    margin-bottom: 135px;
+  }
+
+  .faq {
+    max-width: 793px;
+    margin: 0 auto;
+  }

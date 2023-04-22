@@ -1,0 +1,87 @@
+.main__five {
+    margin-bottom: 165px;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+
+    &__block1 {
+        margin-right: 107px;
+    }
+
+    &__title {
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 23px;
+    }
+
+    &__Paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 27px ;
+    }
+
+    &__input-text {
+        display: block;
+        min-width: 488px;
+        height: calc(2.25rem + 2px);
+        padding: 0.375rem 0.75rem;
+        margin-bottom: 20px;
+        font-family: inherit;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #bdbdbd;
+        border-radius: 3px;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+    &__input-email {
+        display: block;
+        min-width: 488px;
+        height: calc(2.25rem + 2px);
+        padding: 0.375rem 0.75rem;
+        margin-bottom: 25px;
+        font-family: inherit;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #bdbdbd;
+        border-radius: 3px;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+    &__btn {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        text-transform: capitalize;
+        color: #000000;
+        padding: 18px 47px;
+        background: $yellow3;
+        border-radius: 6px;
+        transition: 0.6s ease;
+    }
+
+    &__btn:hover {
+        background-color: $yellow4;
+        color: $white;
+    }
+}
