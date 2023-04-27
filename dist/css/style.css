@@ -2447,6 +2447,9 @@ button.swiper-pagination-bullet {
 .header__nav-btn:hover {
   background-color: #E0FF00;
 }
+.header__icon {
+  display: none;
+}
 
 .res {
   margin-right: 0px;
@@ -2831,6 +2834,23 @@ button.swiper-pagination-bullet {
   background-color: #CAE700;
   color: #fff;
 }
+.signup__span-info {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+}
+.signup__register {
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: underline;
+}
+.signup__register:hover {
+  color: #CAE700;
+}
 
 .accordion {
   font-style: normal;
@@ -2921,4 +2941,39 @@ button.swiper-pagination-bullet {
   font-size: 18px;
   line-height: 25px;
   color: #FFFFFF;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.model-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 40px;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }

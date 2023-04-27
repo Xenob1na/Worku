@@ -84,4 +84,23 @@
         background-color: $yellow4;
         color: $white;
     }
+
+    &__span-info {
+        display: block;
+        margin-bottom: 25px;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #000000;
+    }
+
+    &__register {
+        font-size: 1rem;
+        font-weight: 400;
+        cursor: pointer;
+        color: #000000;
+        text-decoration: underline;
+    }
+    &__register:hover {
+        color: $yellow4;
+    }
 }

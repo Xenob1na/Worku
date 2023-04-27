@@ -3,7 +3,7 @@
 })
 @@include('html/header.html', {})
 <main>
-	<section class="main__firste">
+	<section class="main__firste" id="main__firste">
 		<div class="container main__firste-container">
 			<div class="main__firste-info-text">
 				<h1 class="info__text-one">Manage and track all your Work Inside one app</h1>
@@ -15,7 +15,21 @@
 			</div>
 		</div>
 	</section>
-	<section class="main__two">
+	<section class="section-modal">
+		<div id="myModal" class="modal">
+			<div class="model-content">
+				<span class="close">&times;</span>
+				<form action="" class="signup__form">
+					<input type="text" class="signup__input-text" placeholder="Your name">
+					<input type="email" class="signup__input-email" placeholder="rossmartin@gmail.com">
+					<input type="password" class="signup__input-text" placeholder="Your password">
+					<span class="signup__span-info">If you don't have an account, you can <a class="signup__register">register</a></span>
+					<button class="signup__btn">Login</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<section class="main__two" id="main__two">
 		<div class="container">
 			<div class="main__two-text">
 				<h2 class="main-text">Create timelines, Track progress, assign work and talk with your clients inside one web app!</h2>
@@ -57,7 +71,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="main__three">
+	<section class="main__three" id="main__Features">
 		<div class="container main__three-conatiner">
 			<div class="main__three-img">
 				<img src="img/hero2.png" alt="img">
@@ -96,7 +110,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="main__four">
+	<section class="main__four" id="main__four">
 		<div class="container main__four-container">
 			<div class="content-Testimonial-text">
 				<h3 class="content-Testimonial-text-h3">
@@ -112,7 +126,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="main__five">
+	<section class="main__five" id="main__Contact">
 		<div class="container">
 			<div class="signup">
 				<div class="signup__block1">
@@ -130,7 +144,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="main__six">
+	<section class="main__six" id="main__Help">
 		<div class="container">
 			<div class="faq">
 				<h3 class="faq-title">FAQ’s</h1>
