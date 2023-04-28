@@ -32,3 +32,71 @@
     text-decoration: none;
     cursor: pointer;
   }
+
+  @media (max-width: 1870px) {
+    .signup__input-text {
+      min-width: 445px;
+  }
+
+  .signup__input-email {
+      min-width: 445px;
+  }
+
+  .mobile-input-text {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 1720px) {
+  .signup__input-text {
+    min-width: 430px;
+}
+
+.signup__input-email {
+    min-width: 430px;
+}
+
+}
+@media (max-width: 1660px) {
+  .signup__input-text {
+    min-width: 400px;
+}
+
+.signup__input-email {
+    min-width: 400px;
+}
+
+}
+
+@media (max-width: 1590px) {
+  .signup__input-text {
+    min-width: 360px;
+}
+
+.signup__input-email {
+    min-width: 360px;
+}
+
+}
+
+@media (max-width: 1445px) {
+  .signup__input-text {
+    min-width: 330px;
+}
+
+.signup__input-email {
+    min-width: 330px;
+}
+
+}
+
+@media (max-width: 1340px) {
+  .signup__input-text {
+    min-width: 310px;
+}
+
+.signup__input-email {
+    min-width: 310px;
+}
+
+}

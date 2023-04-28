@@ -27,3 +27,10 @@
     }
 }
 
+
+@media (max-width: 600px) {
+    .footer__info {
+        flex-direction: column;
+        align-items: center;
+    }
+}

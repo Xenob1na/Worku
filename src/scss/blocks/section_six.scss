@@ -62,3 +62,15 @@
     max-width: 793px;
     margin: 0 auto;
   }
+
+  @media (max-width: 545px) {
+    .accordion {
+      font-size: 16px;
+    }
+}
+
+@media (max-width: 545px) {
+  .accordion {
+    font-size: 15px;
+  }
+}

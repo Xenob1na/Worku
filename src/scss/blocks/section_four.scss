@@ -3,13 +3,10 @@
     margin-bottom: 130px;
 }
 
-.main__four-container {
-    width: 50%; 
-    margin: 0 auto;
-}
+
 
 .content-Testimonial-text-h3 {
-    min-width: 1035px;
+    min-width: 100%;
     padding-top: 64px;
     padding-bottom: 32px;
     font-family: 'Krona One';
@@ -51,4 +48,10 @@
     line-height: 25px;
     text-transform: uppercase;
     color: $purple3;
+}
+
+@media (max-width: 800px) {
+    .content-Testimonial-text-h3 {
+       font-size: 45px;
+    }
 }

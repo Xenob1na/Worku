@@ -104,3 +104,36 @@
         color: $yellow4;
     }
 }
+
+@media (max-width: 1200px) {
+    .signup__img {
+        display: none;
+    }
+    .signup__block1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .signup__form {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 520px) {
+    .signup__input-text {
+        min-width: 470px;
+    }
+
+    .signup__input-email {
+        min-width: 470px;
+    }
+}
+
+@media (max-width: 500px) {
+    .signup__input-text {
+        min-width: 445px;
+    }
+
+    .signup__input-email {
+        min-width: 445px;
+    }
+}

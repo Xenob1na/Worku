@@ -2462,6 +2462,52 @@ button.swiper-pagination-bullet {
   padding-top: 30px;
 }
 
+.no-scroll {
+  overflow-y: hidden;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 360px;
+  height: 100%;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 80px 40px;
+  background-color: #0d081c;
+  transition: all 0.4s ease-in;
+}
+
+.mobile-nav--open {
+  right: 0;
+}
+
+.mobile-nav__list {
+  display: grid;
+  gap: 20px;
+}
+
+.mobile-nav-fade--open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+@media (max-width: 1250px) {
+  .nav {
+    display: none;
+  }
+  .header__nav-btn {
+    display: none;
+  }
+  .header__icon {
+    display: block;
+    font-size: 2rem;
+    z-index: 999;
+  }
+}
 .main__firste {
   background-color: #140D2D;
 }
@@ -2511,6 +2557,48 @@ button.swiper-pagination-bullet {
   min-height: 838px;
 }
 
+@media (max-width: 1250px) {
+  .main__firste-img {
+    display: none;
+  }
+  .info__btn {
+    margin-bottom: 200px;
+  }
+}
+@media (max-width: 760px) {
+  .info__text-one {
+    min-width: 600px;
+    font-family: "Krona One";
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0px;
+    margin-top: 173px;
+  }
+  .info__text-two {
+    margin: 0px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+  }
+}
+@media (max-width: 600px) {
+  .info__text-one {
+    min-width: 450px;
+    font-family: "Krona One";
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0px;
+    margin-top: 173px;
+  }
+}
 .main-text {
   margin: 0px;
   margin-top: 140px;
@@ -2606,6 +2694,35 @@ button.swiper-pagination-bullet {
   color: #fff;
 }
 
+@media (max-width: 1190px) {
+  .video {
+    max-width: 100%;
+  }
+  .main__two-Feature-Sections {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Feature__sections-one {
+    min-width: 100%;
+  }
+  .Feature__sections-two {
+    min-width: 100%;
+  }
+  .Feature__sections-three {
+    min-width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  .main-text {
+    font-size: 48px;
+  }
+}
+@media (max-width: 540px) {
+  .main-text {
+    font-size: 40px;
+    text-align: center;
+  }
+}
 .main__three {
   margin-bottom: 155px;
 }
@@ -2699,18 +2816,33 @@ button.swiper-pagination-bullet {
   color: #000000;
 }
 
+@media (max-width: 1200px) {
+  .main__three-img {
+    display: none;
+  }
+  .main__three-content {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 530px) {
+  .content-block-1__h3 {
+    max-width: 500px;
+    font-size: 40px;
+  }
+}
+@media (max-width: 470px) {
+  .content-block-1__h3 {
+    max-width: 500px;
+    font-size: 38px;
+  }
+}
 .main__four {
   background-color: #140D2D;
   margin-bottom: 130px;
 }
 
-.main__four-container {
-  width: 50%;
-  margin: 0 auto;
-}
-
 .content-Testimonial-text-h3 {
-  min-width: 1035px;
+  min-width: 100%;
   padding-top: 64px;
   padding-bottom: 32px;
   font-family: "Krona One";
@@ -2754,6 +2886,11 @@ button.swiper-pagination-bullet {
   color: #8F85B3;
 }
 
+@media (max-width: 800px) {
+  .content-Testimonial-text-h3 {
+    font-size: 45px;
+  }
+}
 .main__five {
   margin-bottom: 165px;
 }
@@ -2852,6 +2989,34 @@ button.swiper-pagination-bullet {
   color: #CAE700;
 }
 
+@media (max-width: 1200px) {
+  .signup__img {
+    display: none;
+  }
+  .signup__block1 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .signup__form {
+    display: inline-block;
+  }
+}
+@media (max-width: 520px) {
+  .signup__input-text {
+    min-width: 470px;
+  }
+  .signup__input-email {
+    min-width: 470px;
+  }
+}
+@media (max-width: 500px) {
+  .signup__input-text {
+    min-width: 445px;
+  }
+  .signup__input-email {
+    min-width: 445px;
+  }
+}
 .accordion {
   font-style: normal;
   font-weight: 400;
@@ -2917,6 +3082,16 @@ button.swiper-pagination-bullet {
   margin: 0 auto;
 }
 
+@media (max-width: 545px) {
+  .accordion {
+    font-size: 16px;
+  }
+}
+@media (max-width: 545px) {
+  .accordion {
+    font-size: 15px;
+  }
+}
 .footer {
   background: #000000;
 }
@@ -2943,6 +3118,12 @@ button.swiper-pagination-bullet {
   color: #FFFFFF;
 }
 
+@media (max-width: 600px) {
+  .footer__info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .modal {
   display: none;
   position: fixed;
@@ -2976,4 +3157,56 @@ button.swiper-pagination-bullet {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media (max-width: 1870px) {
+  .signup__input-text {
+    min-width: 445px;
+  }
+  .signup__input-email {
+    min-width: 445px;
+  }
+  .mobile-input-text {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 1720px) {
+  .signup__input-text {
+    min-width: 430px;
+  }
+  .signup__input-email {
+    min-width: 430px;
+  }
+}
+@media (max-width: 1660px) {
+  .signup__input-text {
+    min-width: 400px;
+  }
+  .signup__input-email {
+    min-width: 400px;
+  }
+}
+@media (max-width: 1590px) {
+  .signup__input-text {
+    min-width: 360px;
+  }
+  .signup__input-email {
+    min-width: 360px;
+  }
+}
+@media (max-width: 1445px) {
+  .signup__input-text {
+    min-width: 330px;
+  }
+  .signup__input-email {
+    min-width: 330px;
+  }
+}
+@media (max-width: 1340px) {
+  .signup__input-text {
+    min-width: 310px;
+  }
+  .signup__input-email {
+    min-width: 310px;
+  }
 }

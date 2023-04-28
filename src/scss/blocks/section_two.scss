@@ -93,3 +93,38 @@
     background-color: $yellow4;
     color: $white;
 }
+
+@media (max-width: 1190px) {
+    .video {
+        max-width: 100%;
+        // padding-left: 20px;
+        // padding-right: 20px;
+    }
+    .main__two-Feature-Sections {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .Feature__sections-one {
+        min-width: 100%;
+    }
+    .Feature__sections-two {
+        min-width: 100%;
+    }
+    .Feature__sections-three {
+        min-width: 100%;
+    }
+}
+@media (max-width: 640px) {
+    .main-text {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 540px) {
+    .main-text {
+        font-size: 40px;
+        text-align: center;
+    }
+}

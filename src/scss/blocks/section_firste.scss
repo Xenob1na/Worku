@@ -48,4 +48,51 @@
     min-height: 838px;
 }
 
+@media (max-width: 1250px) {
+    .main__firste-img {
+        display: none;
+    }
+    .info__btn  {
+        margin-bottom: 200px;
+    }
+}
+
+@media (max-width: 760px) {
+    .info__text-one {
+        min-width: 600px;
+        font-family: 'Krona One';
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 75px;
+        text-transform: capitalize;
+        color: $white;
+        margin: 0px;
+        margin-top: 173px;
+    }
+    
+    .info__text-two {
+        margin: 0px;
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: $white;
+    }
+}
+
+@media (max-width: 600px) {
+    .info__text-one {
+        min-width: 450px;
+        font-family: 'Krona One';
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 75px;
+        text-transform: capitalize;
+        color: $white;
+        margin: 0px;
+        margin-top: 173px;
+    }
+    
+    
+}
 
