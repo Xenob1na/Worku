@@ -22,6 +22,7 @@
     "gulp-clean-css": "latest",
     "gulp-file-include": "latest",
     "gulp-fonter": "latest",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-group-css-media-queries": "latest",
     "gulp-if": "latest",
     "gulp-imagemin": "latest",
