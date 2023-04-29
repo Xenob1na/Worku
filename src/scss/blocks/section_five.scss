@@ -137,3 +137,9 @@
         min-width: 445px;
     }
 }
+
+@media (max-width: 392px) {
+    .signup__title {
+        font-size: 40px;
+    }
+}

@@ -96,3 +96,27 @@
     
 }
 
+@media (max-width: 470px) {
+    .info__text-one {
+        min-width: 450px;
+        font-size: 45px;
+    }
+    .info__text-two {
+        max-width: 400px;
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 424px) {
+    .info__text-one {
+        min-width: 420px;
+        font-size: 40px;
+    }
+    .info__text-two {
+        max-width: 400px;
+        font-size: 17px;
+    }
+    
+}
+
