@@ -61,3 +61,10 @@
        font-size: 40px;
     }
 }
+
+@media (max-width: 405px) {
+    .content-Testimonial-text-h3 {
+       min-width: 370px;
+       font-size: 38px;
+    }
+}
